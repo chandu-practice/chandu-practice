@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pan Card Changes/Correction Form</title>
+    <style>
+        p{
+            margin-bottom: 0px;
+        }
+        table{
+            border-width: 100%;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td{
+            border-width: 100%;
+
+        }
+        
+    </style>
+</head>
+<body style="margin-left: 0px; margin-top: 0px; margin-right: 0px;">
+    <div style="background-color:#FFFFDD; padding: 0px;">
+        <div style="background-color: #8C2020; margin-top: 0px;">
+            <h4 style="text-align:center;  color:#EFE1E4; margin-bottom: 0px; margin-top: 0px;"> Request For New PAN Card Or/And Changes Or Corrections in PAN Data </h4>
+            <p style="font-style:italic;font-weight:normal; text-align: center; margin-top: 0px; color: aliceblue;"> Fields marked with <span style= "text-align: center; color:#FF0011;">*</span><span style="text-align: center; color: aliceblue;"> are mandatory.</span>
+                <span style="text-align: center; color: black;">.</span>
+                <span style="font-style:italic; text-align: center; color: aliceblue;"> To avoid mistake(s), please refer</span>
+                <span><a style= "color: chocolate;" href="https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html">guidelines</a></span>
+                <span style="text-align: center;">and</span>
+                <span><a style="color: chocolate;" href="https://tin.tin.nsdl.com/pan/InstructionsCorr.html" >instructions</a></span><span style="color: black;">.</span>
+            </p>     
+        </div>
+    <form>
+            <div style="background-color: transparent;">
+                <table border="1">
+                    <tbody>
+                        <tr>
+                            <td>&nbsp&nbsp&nbsp&nbsp;</td>
+                            <td colspan="2">
+                                <span style="color:#FF0011;">*</span>
+                                <span><b>Whether citizen of India</b></span>
+                                <span>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </span>
+                                <label for="Yes">Yes</label>
+                                <input type="radio" id="Yes" name="choose">
+                                <label for="No">No</label>
+                                <input type="radio" id="NO" name="choose">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td colspan="2">
+                                <span style="color:#FF0011;">*</span>
+                                <span><b>Permanent Account Number (PAN)</b></span>
+                                <input type = "text" id="pan number" placeholder="" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="check_name" name="check_name"></td>                        
+                            <td colspan="2">
+                                <span style="color:#FF0011;">*</span>
+                                <span><b>1. Name</b></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td colspan="2"><b>Title &nbsp;&nbsp;&nbsp;&nbsp;</b>                       
+                            <label for="Shri/Mr">Shri/Mr</label>
+                            <input type="radio" id="Shri/Mr" name="choose_title">
+                            <label for="Smt./Mrs.">Smt./Mrs.</label>
+                            <input type="radio" id="Smt./Mrs." name="choose_title">
+                            <label for="Kumari/Ms">Kumari/Ms</label>
+                            <input type="radio" id="Kumari/Ms" name="choose_title">
+                            <span style="color: grey;">&nbsp;&nbsp;&nbsp;&nbsp;M/s</span>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td colspan="2">
+                            <table>
+                                <tr>
+                                        <td>
+                                            <label for="Last Name/Surname" ><b>Last Name/Surname</b></label><br>
+                                            <input type = "text" id="Last Name/Surname">
+                                        </td>
+                                        <td>
+                                            <label for="First Name" ><b>First Name</b></label><br>
+                                            <input type = "text" id="First Name">
+                                        </td>       
+                                        <td>
+                                            <label for="Middle Name" ><b>Middle Name</b></label><br>
+                                            <input type = "text" id="Middle Name">
+                                        </td>                    
+                                    </tr>                          
+                                </table>                    
+                            </td>                        
+                    </tr>
+                    <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td colspan="2">
+                                <span style="color:#FF0011;">*</span>
+                                <span><b> Name as you would like it printed on the card</b></span>
+                                <span style="color: blue;">(Prefix like Shri, Smt, Kumari, Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc. are not allowed)</span><br>
+                                <input type = "text" id="FullName">
+                        </td>                       
+                    </tr>
+                    <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td colspan="2">
+                            <span><b> Details of Parents. </b></span>
+                            <span style="color: blue;">(Prefix like Shri, Smt, Kumari, Late, Dr, CA, Ms, Mr, Mrs, M/s, Alias etc. are not allowed.)</span>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td><span><b>Whether mother is single parent and you wish to apply for PAN by furnishing the name of your </b></span><br>
+                            <span><b>mother only</b></span>
+                        </td>
+                        <td>
+                                <label for="Yes">Yes</label>
+                                <input type="radio" id="Yes" name="choose">
+                                <label for="No">No</label>
+                                <input type="radio" id="NO" name="choose" checked>
+                        </td>                       
+                    </tr>
+                    <tr>
+                            <td><input type="checkbox" id="check_name" name="check_name"></td>                        
+                            <td colspan="2">
+                                <span style="color:#FF0011;">*</span>
+                                <span><b>Father's Name</b></span>
+                                <span style="color: blue;">(Mandatory field. Even married women should give father's name only.)</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td colspan="2">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <label for="Last Name/Surname" ><b>Last Name/Surname</b></label><br>
+                                            <input type = "text" id="Last Name/Surname">
+                                        </td>
+                                        <td>
+                                            <label for="First Name" ><b>First Name</b></label><br>
+                                            <input type = "text" id="First Name">
+                                        </td>       
+                                        <td>
+                                            <label for="Middle Name" ><b>Middle Name</b></label><br>
+                                            <input type = "text" id="Middle Name">
+                                        </td>                    
+                                    </tr>                          
+                                </table>                    
+                            </td>                        
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="check_name" name="check_name"></td>                        
+                            <td colspan="2">
+                                <span style="color: blue;">Mother's Name(This field is optional.)</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td colspan="2">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <label for="Last Name/Surname" ><b>Last Name/Surname</b></label><br>
+                                            <input type = "text" id="Last Name/Surname">
+                                        </td>
+                                        <td>
+                                            <label for="First Name" ><b>First Name</b></label><br>
+                                            <input type = "text" id="First Name">
+                                        </td>       
+                                        <td>
+                                            <label for="Middle Name" ><b>Middle Name</b></label><br>
+                                            <input type = "text" id="Middle Name">
+                                        </td>                    
+                                    </tr>                          
+                                </table>                    
+                            </td>                        
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                <span style="color:#FF0011;">*</span>
+                                <span><b>4. Select Parent name which is to be printed on the card</b></span><br>
+                                <span style="color: blue;">(In case no option is provided then PAN card will be issued with father's name)</span>
+                            </td>                        
+                            <td>
+                                <label for="Father Name">Father Name</label>
+                                <input type="radio" id="Father Name" name="Name_choose" checked>
+                                <label for="Mother Name">Mother Name</label>
+                                <input type="radio" id="Mother Name" name="Name_choose">
+                            </td>                       
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="check_name" name="check_name"></td>                        
+                            <td>
+                                <span style="color:#FF0011;">*</span>
+                                <span><b>5. Date of Birth/Incorporation/Agreement/Partnership</b></span><br>
+                                <span><b>or Trust Deed/Formation of Body of Individuals/</b></span><br>
+                                <span><b>Association of Persons</b></span>                            
+                            </td>
+                            <td>
+                                <table style="display: inline;">
+                                    <tr>
+                                        <td>
+                                            <label for="DD">DD</label><br>
+                                            <select name="DD" id="DD">
+                                                <option value="DD">DD</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                                <option value="7">7</option>
+                                                <option value="8">8</option>
+                                                <option value="9">9</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                                <option value="16">16</option>
+                                                <option value="17">17</option>
+                                                <option value="18">18</option>
+                                                <option value="19">19</option>
+                                                <option value="20">20</option>
+                                                <option value="21">21</option>
+                                                <option value="22">22</option>
+                                                <option value="23">23</option>
+                                                <option value="24">24</option>
+                                                <option value="25">25</option>
+                                                <option value="26">26</option>
+                                                <option value="27">27</option>
+                                                <option value="28">28</option>
+                                                <option value="29">29</option>
+                                                <option value="30">30</option>
+                                                <option value="31">31</option>
+                                        </td>
+                                        <td>
+                                            </select>
+                                            <label for="MM">MM</label><br>
+                                            <select name="MM for" id="MM">
+                                                <option value="MM">MM</option>
+                                                <option value="1_MM">1</option>
+                                                <option value="2_MM">2</option>
+                                                <option value="3_MM">3</option>
+                                                <option value="4_MM">4</option>
+                                                <option value="5_MM">5</option>
+                                                <option value="6_MM">6</option>
+                                                <option value="7_MM">7</option>
+                                                <option value="8_MM">8</option>
+                                                <option value="9_MM">9</option>
+                                                <option value="10_MM">10</option>
+                                                <option value="11_MM">11</option>
+                                                <option value="12_MM">12</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <label for="YYYY" >YYYY</label><br>
+                                            <input type = "text" id="YYYY" value size="4" maxlength="4">
+                                        </td>                         
+                                    </tr>                                
+                                </table>
+                            </td> 
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="check_gender" name="check_gender"></td>
+                            <td>
+                                <span style="color:#FF0011;">*</span>
+                                <span><b>6. Gender</b></span><br>                        
+                            </td>                        
+                            <td>
+                                <label for="Male">Male</label>
+                                <input type="radio" id="Male" name="Gender">
+                                <label for="Female">Female</label>
+                                <input type="radio" id="Female" name="Gender">
+                                <label for="TransGender">TransGender</label>
+                                <input type="radio" id="TransGender" name="Gender">                             
+                            </td>                       
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id=" Photo Mismatch" name=" Photo Mismatch"></td>
+                            <td colspan="2">
+                                <b>7. Photo Mismatch</b>                       
+                            </td>                                                               
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id=" Signature Mismatch" name=" Signature Mismatch"></td>
+                            <td colspan="2">
+                                <b>8. Signature Mismatch</b>                       
+                            </td>                                                              
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id=" Address for Communication" name=" Address for Communication" checked></td>
+                            <td>
+                                <span style="color:#FF0011;">*</span>
+                                <span><b>9. Address for Communication</b></span><br>                        
+                            </td>                        
+                            <td>
+                                <label for="Residential">Residential</label>
+                                <input type="radio" id="Residential" name="Address-type">
+                                <label for="Office">Office</label>
+                                <input type="radio" id="Office" name="Address-type">
+                            </td>                       
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                <span><b>Office Name</b></span>
+                                <span><i>(to be filled only in case of office address)</i></span>                        
+                            </td>                        
+                            <td>                             
+                                <input type="text" id="Office Name" name="Office Name">                             
+                            </td>                       
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                <b>Flat/Door/Block No.</b>                                                    
+                            </td>                        
+                            <td>                             
+                                <input type="text" id="Flat/Door/Block No." name="	Flat/Door/Block No.">                             
+                            </td>                       
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                <b>Name of Premises/Building/Village</b>                                                    
+                            </td>                        
+                            <td>                             
+                                <input type="text" id="Name of Premises/Building/Village" name="Name of Premises/Building/Village">                             
+                            </td>                       
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                <b>Road/Street/Lane/Post Office</b>                                                    
+                            </td>                        
+                            <td>                             
+                                <input type="text" id="Road/Street/Lane/Post Office" name="Road/Street/Lane/Post Office">                             
+                            </td>                       
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                <b>Area/Locality/Taluka/Sub-Division</b>                                                    
+                            </td>                        
+                            <td>                             
+                                <input type="text" id="Area/Locality/Taluka/Sub-Division" name="Area/Locality/Taluka/Sub-Division">                             
+                            </td>                       
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                <b>Town/City/District</b>                                                    
+                            </td>                        
+                            <td>                             
+                                <input type="text" id="Town/City/District" name="Town/City/District">                             
+                            </td>                       
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                <b>State/Union Territory</b>                                                    
+                            </td>                        
+                            <td>                             
+                                <select name="State/Union Territory" id="State/Union Territory">
+                                    <option value="--Please Select--for State/Union Territory">--Please Select--</option>
+                                    <option value="Andaman & Nicobar Islands">Andaman & Nicobar Islands</option>
+                                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                    <option value="Arunachal Pradesh"> Arunachal Pradesh</option>
+                                    <option value="Assam"> Assam</option>
+                                    <option value="Bihar" > Bihar</option>
+                                    <option value="6" > Chandigarh</option>
+                                    <option value="Chandigarh"> Chhattisgarh</option>
+                                    <option value="Dadara & Nagar Haveli" > Dadara & Nagar Haveli</option>
+                                    <option value="Daman & Diu" > Daman & Diu</option>
+                                    <option value="Delhi" > Delhi</option>
+                                    <option value="Goa" > Goa</option>
+                                    <option value="Gujarat" > Gujarat</option>
+                                    <option value="Haryana" > Haryana</option>
+                                    <option value="Himachal Pradesh" > Himachal Pradesh</option>
+                                    <option value="Jammu & Kashmir" > Jammu & Kashmir</option>
+                                    <option value="Jharkhand" > Jharkhand</option>
+                                    <option value="Karnataka" > Karnataka</option>
+                                    <option value="Kerala" > Kerala</option>
+                                    <option value="Lakhswadeep" > Lakhswadeep</option>
+                                    <option value="Madhya Pradesh" > Madhya Pradesh</option>
+                                    <option value="Maharashtra" > Maharashtra</option>
+                                    <option value="Manipur" > Manipur</option>
+                                    <option value="Meghalaya" > Meghalaya</option>
+                                    <option value="Mizoram" > Mizoram</option>
+                                    <option value="Nagaland" > Nagaland</option>
+                                    <option value="Orissa" > Orissa</option>
+                                    <option value="Pondicherry" > Pondicherry</option>
+                                    <option value="Punjab" > Punjab</option>
+                                    <option value="Rajasthan" > Rajasthan</option>
+                                    <option value="Sikkim" > Sikkim</option>
+                                    <option value="Tamil Nadu" > Tamil Nadu</option>
+                                    <option value="Telangana" > Telangana</option>
+                                    <option value="Tripura" > Tripura</option>
+                                    <option value="Uttar Pradesh" > Uttar Pradesh</option>
+                                    <option value="Uttaranchal" > Uttaranchal</option>
+                                    <option value="West Bengal" > West Bengal</option>
+                                    <option value="Ladakh" > Ladakh</option>
+                                    <option value="Outside India" > Outside India </option>
+                            </td>                       
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                <span><b>PIN</b></span>
+                                <span><i>(Indicating PIN is mandatory)</i></span>                        
+                            </td>                        
+                            <td>                             
+                                <input type="text" id="PIN" name="PIN">                             
+                            </td>                       
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                <b>Country</b>                                                    
+                            </td>                        
+                            <td>                             
+                                <select name="Country" id="Country">
+                                    <option value="--Please Select--for Country">--Please Select--</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                <b>Zip</b>                                                    
+                            </td>                        
+                            <td>                             
+                                <input type="text" id="Zip" name="Zip">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id=" desire to update your other address" name=" desire to update your other address" ></td>
+                            <td colspan="2">
+                                <span></span><b>10. If you desire to update your other address, give required details & </b></span>
+                                <span><b><u>Submit proof of other address also.</u></b></span>                      
+                            </td>                                       
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id=" Telephone No" name=" Telephone No" ></td>
+                            <td>
+                                <span style="color:#FF0011;">*</span>
+                                <span><b>11. Telephone No.</b></span><br>
+                                <span>(Country code is compulsory)</span>
+
+                            </td>                        
+                            <td>
+                                <table border="1">
+                                    <tr>
+                                        <td colspan="2">
+                                            Country code (ISD code)<br>
+                                            <select name="Country code (ISD code)">
+                                                <option value="--Please Select--">--Please Select--</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>                                           
+                                            <input type="radio" id="Mobile No." name="Contact_type">
+                                            <label for="Mobile No.">Mobile No.</label>                                       
+                                    </td>
+                                    <td>
+                                        <input type="radio" id="Telephone No." name="Contact_type">
+                                        <label for="Telephone No.">Telephone No.</label>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="Area/STD Code" >Area/STD Code</label><br>
+                                            <input type = "text" id="Area/STD Code">
+                                        </td>
+                                        <td>
+                                            <label for="Telephone No./Mobile No." >Telephone No./Mobile No.</label><br>
+                                            <input type = "text" id="Telephone No./Mobile No.">
+                                        </td>                                                       
+                                    </tr>                              
+                                </table>                                                        
+                            </td>                       
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                <b>	E-mail ID</b>                                                    
+                            </td>                        
+                            <td>                             
+                                <input type="text" id="E-mail ID" name="E-mail ID">                             
+                            </td>                       
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                In case of a citizen of India, then                                                    
+                            </td>                        
+                            <td>
+                                <input type="radio" id="AADHAAR" name="id_type">
+                                <label for="AADHAAR">AADHAAR</label>
+                                <input type="radio" id="EID" name="id_type">
+                                <label for="EID">EID</label>                             
+                                                            
+                            </td>                       
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id=" AADHAAR number" name="AADHAAR number" ></td>
+                            <td>
+                                <span style="color:#FF0011;">*</span>
+                                <b>12. AADHAAR number :</b>                                                    
+                            </td>                        
+                            <td>                             
+                                <input type="text" id="AADHAAR number" name="AADHAAR number"><br>
+                                <span style="color: blue;"><i>In case <b>AADHAAR</b> number is provided,</i></span><br>
+                                <span style="color: blue;"><i>then proof of <b>AADHAAR</b> along with supporting documents is to be submitted to <b>NSDL</b></i></span>                             
+                            </td>                       
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                <span style="color:#FF0011;">*</span>
+                                <span>Name as per AADHAAR letter</span><br>
+                                <span>or</span><br>
+                                <span>as per the enrollment ID of Aadhaar application form</span>
+                            </td>                        
+                            <td>                             
+                                <input type="text" id="Name as per AADHAAR letter" name="Name as per AADHAAR letter" text size="80">                                                            
+                            </td> 
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                <b>	13. GSTN</b>                                                    
+                            </td>                        
+                            <td>                             
+                                <input type="text" id="GSTN" name="GSTN">                             
+                            </td>                       
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="PAN_Numbers" name="PAN_Numbers" ></td>
+                            <td colspan="2">
+                                <span></span><b>14. Mention other Permanent Account Numbers (PANs) if any,inadvertently allotted to you.</b></span>
+                                <span><b><u>Submit proof of surrendered PAN(s) along with the application.</u></b></span>                      
+                            </td>                                       
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                <label for="PAN1"><b>PAN1</b></label>
+                                <input type="text" id="PAN1" name="PAN1">
+                            </td>
+                            <td>
+                                <label for="PAN2"><b>PAN2</b></label>
+                                <input type="text" id="PAN2" name="PAN2">
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td>
+                                <label for="PAN3"><b>PAN3</b></label>
+                                <input type="text" id="PAN3" name="PAN3">
+                            </td>
+                            <td>
+                                <label for="PAN4"><b>PAN4</b></label>
+                                <input type="text" id="PAN4" name="PAN4">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td colspan="2"><b>15. Verification</b></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td colspan="2">
+                                <span>I/We</span>
+                                <input type="text" id="Name_declaration" name="Name_declaration" value size ="75" maxlength="75">
+                                <span>,the applicant,in the capacity of</span>
+                                <select name="Applicant_capacity" id="Applicant_capacity">
+                                    <option value="--Please Select--for Applicant_capacity">--Please Select--</option>
+                                    <option value="Himself/herself">Himself/herself</option>
+                                    <option value="Representative Assessee">Representative Assessee</option>
+                                </select>
+                                <span>do hereby declare that what is stated above is true to the best of my information and belief.</span><br>
+                                <span>I have enclosed</span>
+                                <input type="text" id="No_of_Documents" name="No_of_Documents" value size ="2" maxlength="2">
+                                <span>(number of documents) in support of proposed changes/corrections.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td colspan="2">
+                                <span>Place</span>
+                                <input type = "Place" id="Place">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td colspan="2">
+                                <span style="font-size: 0.86em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DD MM YYYY</span><br>
+                                <span>Verified today, the  18 -04 -2020</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td colspan="2">
+                                <span>I/We have enclosed</span><br>
+                                <select name="type_of_proof" id="type_of_proof">
+                                    <option value="-- Please select -- for type_of_proof">-- Please select --</option>
+                                    <option value="Copy of passport">Copy of passport</option>
+                                    <option value="Copy of Person of Indian Origin card issued by Government of India">Copy of Person of Indian Origin card issued by Government of India</option>
+                                    <option value="Copy of Overseas Citizenship of India card issued by Government of India">Copy of Overseas Citizenship of India card issued by Government of India</option>
+                                    <option value="Copy of National ID/Citizenship ID/Taxpayer ID attested by Indian Embassy/Consulate/High Commission/Apostille/authorised officials of overseas branches of Scheduled Banks registered in India">Copy of National ID/Citizenship ID/Taxpayer ID attested by Indian Embassy/Consulate/High Commission/Apostille/authorised officials of overseas branches of Scheduled Banks registered in India</option>
+                                </select>
+                                <span>as proof of identity,</span>
+                                <select name="Proof_address" id="Proof_address">
+                                    <option value="-- Please select -- for Proof_address">-- Please select --</option>
+                                    <option value="Copy of passport">Copy of passport</option>
+                                    <option value="Copy of Bank account statement in the country of residence">Copy of Bank account statement in the country of residence</option>
+                                    <option value="Copy of certificate of residence in India or Residential permit issued by the State Police Authority">Copy of certificate of residence in India or Residential permit issued by the State Police Authority</option>
+                                    <option value="Copy of the registration certificate issued by the Foreigner's Registration Office showing Indian address">Copy of the registration certificate issued by the Foreigner's Registration Office showing Indian address</option>
+                                    <option value="Copy of Person of Indian Origin card issued by Government of India">Copy of Person of Indian Origin card issued by Government of India</option><option value="41" title="Copy of Non-resident External bank account statement in India">Copy of Non-resident External bank account statement in India</option>
+                                    <option value="Copy of Visa granted and copy of appointment letter or contract from Indian Company and Certificate (in original) of Indian Address issued by the employer">Copy of Visa granted and copy of appointment letter or contract from Indian Company and Certificate (in original) of Indian Address issued by the employer</option>
+                                    <option value="Copy of Overseas Citizen of India card issued by Government of India">Copy of Overseas Citizen of India card issued by Government of India</option>
+                                </select>
+                                <span>as proof of address,</span>
+                                <select name="Proof_DOB" id="Proof_DOB">
+                                    <option value="-- Please select -- for Proof_DOB">-- Please select --</option>
+                                    <option value="Copy of Birth certificate issued by the Municipal Authority or any office authorised to issue Birth and Death Certificate by the Registrar of Birth and Deaths or the Indian Consulate">Copy of Birth certificate issued by the Municipal Authority or any office authorised to issue Birth and Death Certificate by the Registrar of Birth and Deaths or the Indian Consulate</option>
+                                    <option value="Copy of Pension payment order">Copy of Pension payment order</option>
+                                    <option value="Copy of Marriage certificate issued by Registrar of Marriages">Copy of Marriage certificate issued by Registrar of Marriages</option>
+                                    <option value="Copy of Matriculation certificate">Copy of Matriculation certificate</option>
+                                    <option value="Copy of Passport">Copy of Passport</option>
+                                    <option value="Copy of Driving licence">Copy of Driving licence</option>
+                                    <option value="Copy of Domicile certificate issued by the Government">Copy of Domicile certificate issued by the Government</option>
+                                    <option value="Copy of Affidavit sworn before a magistrate stating the date of birth">Copy of Affidavit sworn before a magistrate stating the date of birth</option>
+                                    <option value="Copy of Elector's photo identity card">Copy of Elector's photo identity card</option>
+                                    <option value="Copy of Aadhaar Card issued by the Unique Identification Authority of India">Copy of Aadhaar Card issued by the Unique Identification Authority of India</option>
+                                    <option value="Copy of Central Government Health Service Scheme Card">Copy of Central Government Health Service Scheme Card</option>
+                                    <option value="Copy of Ex-Servicemen Contributory Health Scheme photo card">Copy of Ex-Servicemen Contributory Health Scheme photo card</option>
+                                    <option value="Copy of Photo identity card issued by the Central Government or State Government or Public Sector Undertaking">Copy of Photo identity card issued by the Central Government or State Government or Public Sector Undertaking</option>
+                                    <option value="Copy of Mark sheet of recognised board">Copy of Mark sheet of recognised board</option>
+                                </select>
+                                <span>as proof of date of birth and</span>
+                                <select name="proof of PAN allotted" id="proof of PAN allotted">
+                                    <option value="-- Please select -- for proof of PAN allotted">-- Please select --</option>
+                                    <option value="Copy of PAN card">Copy of PAN card</option>
+                                    <option value="Copy of PAN allotment letter">Copy of PAN allotment letter</option>
+                                    <option value="No document"> No document</option>                                
+                                </select>
+                                <span>as proof of PAN allotted.</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td colspan="2">
+                                <span><b>Whether you wish to have?</b></span>
+                                <span>
+                                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+                                </span>
+                                <input type="radio" id="Physical PAN Card & e-PAN Card" name="choose_type_of_card" checked>
+                                <label for="Physical PAN Card & e-PAN Card">Physical PAN Card & e-PAN Card</label>
+                                <span>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </span>
+                                <input type="radio" id="Only e-PAN Card" name="choose_type_of_card">
+                                <label for="Only e-PAN Card">Only e-PAN Card</label>
+                                <span>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </span>
+                                <span><b><u>Fees Applicable</u></b></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td colspan="2"><b>Other Details</b></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td colspan="2"><b>1. Depository Account Details</b></td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td colspan="2">
+                                <span><b>DP ID:</b></span>
+                                <input type = "DP ID:" id="DP ID:">
+                                <span>&nbsp&nbsp&nbsp&nbsp;</span>
+                                <span><b>Client ID:</b></span>
+                                <input type = "Client ID:" id="Client ID:">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                            <td colspan="2"><b>2. Payment Details</b></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" id="Online Payment" name="Online Payment">
+                            </td>
+                            <td colspan="2">
+                                <b>Online Payment</b>                       
+                            </td>                                                               
+                        </tr>
+                </table>
+                
+            
+            </div>        
+        <table>
+            <tbody>
+                <tr>
+                    <td>For Paperless PAN Application:
+                        <span>                            
+                            <input type="radio" id="Yes_choose_Paperless_PAN" name="choose_Paperless_PAN" checked>
+                            <label for="Yes_choose_Paperless_PAN">Yes</label>                            
+                            <input type="radio" id="NO" name="No_choose_Paperless_PAN">
+                            <label for="No_choose_Paperless_PAN">No</label>
+                        </span>
+                    </td>
+                </tr> 
+            </tbody>           
+        </table>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="radio" id="DSC" checked>
+                        <label for="DSC">DSC</label>
+                        <select name="DSC" id="DSC">
+                            <option value="--Select-- for DSC">--Select--</option>
+                            <option value="Minor">Minor</option>
+                            <option value="Lunatic/Idiot">Lunatic/Idiot</option>
+                            <option value="Self">Self</option>
+                        </select>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <a href="https://tin.tin.nsdl.com/pan/InstructionDSC.html">Guidelines for DSC user</a>                       
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Upload Photo"id="Upload Photo">Upload Photo</label>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <input type="file" id="Upload Photo">
+                        <span>&nbsp;&nbsp;</span>
+                        <label for="Upload Signature"id="Upload Signature">Upload Signature</label>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <input type="file" id="Upload Signature">
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Upload Document"id="Upload Document">Upload Document</label>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <input type="file" id="Upload Document">
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>OR</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button><a href="https://accounts.digitallocker.gov.in/signin/oauth_partner/%252Foauth2%252F1%252Fauthorize%253Fresponse_type%253Dcode%2526client_id%253DAC0DAD4B%2526state%253DNSDLPAN-tin.tin.nsdl.com%2526redirect_uri%253Dhttps%25253A%25252F%25252Fservices.digitallocker.gov.in%25252Fservices%25252Fgetdata%2526orgid%253D002520%2526txn%253D604bb462532d344451621d61oauth21615574114%2526hashkey%253D94081a44cbadc5267b533484340fb525dc69a8507a9ea2a69c05a12427dd4945%2526requst_pdf%253DY%2526signup%253Dsignup" target="_blank">
+                            <img style="width: 15px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOoAAADdCAMAAACCNR5pAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ppVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowZmIyZTM3OC1kODBjLTg1NDctOGI2ZS00Y2U0ZDMwOTVjOTgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDg5M0I1QzI0RDM4MTFFNTk1RTY5MEQyRDhFNEQzMzAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDg5M0I1QzE0RDM4MTFFNTk1RTY5MEQyRDhFNEQzMzAiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGMTBGQTQ5ODQyNTMxMUU1OTI5RkQ1RkRGN0E5QkJGOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGMTBGQTQ5OTQyNTMxMUU1OTI5RkQ1RkRGN0E5QkJGOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PnOlOPcAAAMAUExURWE88vb29k9t62VB8mA2+1Er6mNB7KKT6UIi0+vi22pC/Y/F5z1x/NTa2fv6/lwy++jl+F477Fs09GQ7/MrW2VxD2mU8/PLy8VQq9KfN4GE+7Vk83bOn7E0o5bXQ3C+J/fX0/WQ9+E+l9trU9UiP+FYq+VM03fz8/GI5/Gg+/Pr6+m1G/b2z7mhE9Ix64l40+2hC+O7t7dXP9ZB+5Orm4vTs5GtE/Vsw+8S77WpF+FKb81gs+2ZA91Uy43y26EQWzWA59+3o5Im85uLe+G1V3Ydz3XFZ3kmR93rE7mFB5ltH/D1m/npl3U0r25KB5eLd11k17WWm7VY43WZM2/j4+Ono6F095Vou+2pE+zla7l5u5kdb/miz7GxG+szE6fHm3F448lw/39vX6HBessLU4XZd45KC0Fk64s3F8u3s6mY9/K+m0lUv6+Xj4VQ61Ukq01NV/Wi28fXv6lo55mJD/E0w1UYj2vDu+19A5Wg1/G1H/EIj0JmK4+zq6XK776KU5Ukm3P38/kYn01dY4UtM/lc15mM6+1I6zFEu4Fo936+j6amd0VYu8oFs3001yV81/GCs8EtV4WlP31o7/Tlx7lE01WeU8JSJvDtn6qCQ6f39/t7g3VI5qjJ8/aud6dHL5Z6O6HVeylk902M6+VKQ80gk0XhV9mA9/Fku+9ni5ZV/6WpB/2NKy3Sv6WYv/KWX6eXj7GpWz8S+2ebs7Fgu9+zs7GM89/7/+urq7v///0ovqIJ1s5eF5lue8P7//Fs65Pn692lA/prJ41s0+/T09Fp861k121c44Dsbr1Ao7XJO9WpD/Vw85R2S/2NA/EEg0GxH+m1I9WhA/Wc//WY+/GlB/Wc+/f7+/mE3/Gc+/Pj3/WlA/WhB/WhA+2lB+2c//GhB+1cr+2Y/+1cs9/v7/lw841kt+1gw+/Dw8P///mlA/Fow91RD/lA//2Iz/Pby7/3z7P3+/rit7UaE9GpD+z5M3nFT6G5E/zFy/6CN7qWZ5Fkx8Kyf5ZaB7187/P///9sL6esAAAEAdFJOU////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wBT9wclAAAdBElEQVR42tTdC1wTV74HcFCkRAiCPFJAg4AFRFEC0UWuDx6iCCgPwVqDAq5WQAlYihAxVKKi2KJoi9sNi1WQ7baidruLLl29rWws68oV22IBbcVSvRvbLv18xNv1Xrebe86ZyYtMknmFxP9Eyu7ns/vx2985M+ecmTmxUzEsOSulGoeyo/8/ve0WWTCHpXpHrlJzXSvCbIzqFv1c4prMxuDg4Ez8CM7MxH81XX7aA/4QixsPH050VdWg/9saldvL0TZFrXhUL4bK7u7usu6yrQT1MVYP0A/9Wrv2AX6A3/Lr/MTiA3NDcKqrKqG9faMNUYPqQZzdW8vKenp63EH1oGOt7uGrPiq1hyM8VuoflZX5fn4HolxV99H/832V2+8Pt0+bYSNUefSxxuDusjKIdM9ztyM6fH01H4Oa6DvRUX04+vqurcsXa6iukHq45bUK26BGe+FSO01NVH+0v4ID/5gsR8eVa8dQD4gPHIhKsAVqwbLGzO4y4Iy1u3DhQgBWi9QHQUVgh36FL0RHOMCurPSLuq+lLj/QIhaLU4OsTZWrZswtz9yKIsWYfeAY7hvW1NfquqepCHjcBfVYW+tQLYwIR9TVOqkuF3v5gf67LNq6VHDxm+PV2A2lIFDvIow4NDQ0a+hzrIY+/+oWVt9NxuvW5Ot4TZ68QFuzZ88G2AgY6xhqfv6D/Hw/r0Ou1qWGRDUGb013h5H29Q0ODn2hrs/VpabeuqW2aqjXr+tTARZR6/SofpWo6vwuVViVWpEaDJpvHpL2DX755ZdfmMBONotdFxEx0XFMA/ZbuRJchVZWPvCrT7DmaSloS3BZWR5ovn19Y62f07ASNOAtfisdUa3Mr1tWYEVq5JZGEKpda0ARC1biVOsAdWK4Izxf1XlNc1XJrUVdHrzf3T1WTWVqHZvqfZwa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" alt="Digiliocker">
+                        </a>Fetch from Digilocker</button>                    
+                        
+                    </td>                   
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <tbody>               
+                <tr>
+                    <td>
+                        <br><span>ALREADY UPLOADED PHOTO:</span>
+                    </td>
+                    <td>
+                        <input type="text" id="ALREADY UPLOADED PHOTO:">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br><span>ALREADY UPLOADED SIGNATURE:</span>
+                    </td>
+                    <td>
+                        <input type="text" id="ALREADY UPLOADED SIGNATURE:">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>                      
+                        <span>ALREADY UPLOADED DOCUMENTS:</span>                      
+                     </td>
+                     <td>
+                        <textarea id="ALREADY UPLOADED DOCUMENTS:" name="ALREADY UPLOADED DOCUMENTS:" rows="9" cols="35" ></textarea>
+                     </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>                        
+                    </td>
+                    <td>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>                        
+                        <input type="submit" name="submit" id="submit">                        
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+
+       </div>
+    </form>
+    
+</body>
+</html>
